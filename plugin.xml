@@ -41,10 +41,6 @@
             </feature>
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-        </config-file>
-
         <source-file src="src/android/FilePath.java" target-dir="src/com/hiddentao/cordova/filepath"/>
         <source-file src="src/android/Base64Util.java" target-dir="src/com/hiddentao/cordova/filepath"/>
         <source-file src="src/android/CryptoUtil.java" target-dir="src/com/hiddentao/cordova/filepath"/>
